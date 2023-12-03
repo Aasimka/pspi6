@@ -147,5 +147,12 @@ class Athlete implements Runnable {
 
     }
 
+    public boolean isFinished() {
+        return finished;
+    }
+
+    public void setFinished(boolean finished) {
+        this.finished = finished;
+    }
 }
 
