@@ -93,10 +93,8 @@ class Athlete implements Runnable {
 
         if (!stopped) {
             setFinished(name);
-
             Platform.runLater(() -> {
                 checkAllFinished();
-
             });
         }
 
